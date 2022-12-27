@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Kaç sayı girmek istersiniz?");
         int tempNum,numTot = inp.nextInt();
 
-        int lowValue =Integer.MAX_VALUE,value = 0;
+        int lowValue =Integer.MAX_VALUE,value = Integer.MIN_VALUE;
 
         for(int i = 1 ; i <= numTot ; i++){
             System.out.print("Sayı giriniz:");
